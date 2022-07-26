@@ -130,6 +130,9 @@ img {
 .site-nav-link:focus {
     color: var(--accent);
 }
+.current {
+    color: var(--accent);
+}
 .site-nav-link.current::after {
     position: absolute;
     bottom: 0;
@@ -421,7 +424,7 @@ img {
     border-radius: 50%;
 
     fill: var(--icon-fill-color);
-    background-color: var(--team-background-color);
+    background-color: var(--primary-background-color);
     
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -593,7 +596,7 @@ img {
 
     background-color: var(--primary-background-color);
 }
-.portfolio-list-link {
+.portfolio-list .link {
     box-shadow: none;
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
